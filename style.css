@@ -1,0 +1,29 @@
+ body { 
+     display: flex;
+     gap: 20px; 
+     padding: 20px; 
+     font-family: sans-serif;
+     
+}
+
+canvas { 
+    border: 1px solid #333; 
+    cursor: crosshair; 
+    background-color: #f0f0f0;
+}
+   
+#controls { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+}
+    
+label { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 180px; 
+}
+    
+button, input, select { 
+    width: 100%; 
+}
